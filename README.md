@@ -4,11 +4,21 @@ In this project the Cybersecurity analyst was tasked with managing permissions o
 In Linux, permissions are represented with a 10-character string. Permissions include: "r","w","x". 
 read: for files, this is the ability to read the file contents; for directories, this is the ability to read all contents in the directory including both files and subdirectories (r), write: for files, this is the ability to make modifications on the file contents; for directories, this is the ability to create new files in the directory(w), execute: for files, this is the ability to execute the file if it’s a program; for directories, this is the ability to enter the directory and access its files (x)
 
-Also the first character in the permissions section is "d" for directory and "-" for file.
+The 10-character string can be deconstructed to determine who is authorized to access the
+file and their specific permissions. The characters and what they represent are as follows:
+● 1st character: This character is either a d or hyphen (-) and indicates the file type. If it’s
+a d, it’s a directory. If it’s a hyphen (-), it’s a regular file.
 
-These permissions are given to these types of owners:
-
-user: the owner of the file (u), group: a larger group that the owner is a part of (g), other: all other users on the system (o) in that order.
+● 2nd-4th characters: These characters indicate the read (r), write (w), and execute (x)
+permissions for the user. When one of these characters is a hyphen (-) instead, it
+indicates that this permission is not granted to the user.
+● 5th-7th characters: These characters indicate the read (r), write (w), and execute (x)
+permissions for the group. When one of these characters is a hyphen (-) instead, it
+indicates that this permission is not granted for the group.
+● 8th-10th characters: These characters indicate the read (r), write (w), and execute (x)
+permissions for other. This owner type consists of all other users on the system apart
+from the user and the group. When one of these characters is a hyphen (-) instead,
+that indicates that this permission is not granted for other.
 
 
 
@@ -68,9 +78,13 @@ Finally tasked with changing directory permissions for group users:
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/4e3bc054-cc83-4b50-a3c4-a2fae004cba0)
 
 
+Summary:
 
-
-
+I changed multiple permissions to match the level of authorization my organization wanted for
+files and directories in the projects directory. The first step in this was using ls -la to
+check the permissions for the directory. This informed my decisions in the following steps. I
+then used the chmod command multiple times to change the permissions on files and
+directories.
 
 
 
