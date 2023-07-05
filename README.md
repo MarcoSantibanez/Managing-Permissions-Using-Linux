@@ -12,7 +12,7 @@ user: the owner of the file (u), group: a larger group that the owner is a part 
 
 
 
-First analyst was tasked checking current permissions for users in projects directory: 
+First analyst was tasked with checking current permissions for users in the projects directory: 
 
 
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/efb09933-5202-4c1f-808d-c405a8fa54a5)
@@ -25,7 +25,7 @@ Next reviewed if there were any hidden files located in the directory "projects"
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/5597ae8e-c0f5-43d4-8d96-bd20e274cc7b)
 
 
-Next with changing file permissions to determine whether any files have incorrect permissions in the projects and then change the permissions as needed. This action will remove unauthorized access and strengthen security on the system:
+Next with changing file permissions to determine whether any files have incorrect permissions in projects and then change the permissions as needed. This action will remove unauthorized access and strengthen security on the system:
 
 
 Viewed permissions once again:
@@ -49,7 +49,7 @@ Next changed permissions of the project_m.txt file so that the group doesn’t h
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/0686f464-4fae-4a14-b4e9-549906696a90)
 
 
-Next changed file permissions on hidden file. This action will further remove unauthorized access and strengthen security on the system: 
+Next changed file permissions on a hidden file. This action will further remove unauthorized access and strengthen security on the system: 
 
 First reviwed current permissions in the hidden file: 
 
