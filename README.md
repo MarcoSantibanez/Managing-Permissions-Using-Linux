@@ -12,7 +12,7 @@ user: the owner of the file (u), group: a larger group that the owner is a part 
 
 
 
-First analyst was tasked checking current permissions for users in projects file: 
+First analyst was tasked checking current permissions for users in projects directory: 
 
 
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/efb09933-5202-4c1f-808d-c405a8fa54a5)
