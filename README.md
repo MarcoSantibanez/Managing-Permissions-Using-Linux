@@ -56,7 +56,7 @@ First reviwed current permissions in the hidden file:
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/8a3457a2-0fbc-4b14-937e-40b428d6ad69)
 
 
-Then proceeded to change those user permission that were given incorrectly: 
+Then proceeded to change those user permission that were given incorrectly to users and group: 
 
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/1360496d-90b3-41ca-9b9f-5dcf114c03e3)
 ![image](https://github.com/MarcoSantibanez/Managing-Permissions-Using-Linux/assets/138132151/7fb78649-3865-4253-b33b-ac654ac9e517)
